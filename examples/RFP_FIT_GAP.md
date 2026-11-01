@@ -1,4 +1,4 @@
-# Synthetic example 1 — Oracle HCM/ERP university RFP fit/gap
+# Synthetic example 1 | Oracle HCM/ERP university RFP fit/gap
 
 **Not an executed sales response.** CPUS is fictional. The table uses the six source-prescribed support categories from `PROJECT_INSTRUCTIONS.txt` and `docs/01_OPERATING_STANDARD.md`. “Supported through configuration” below may describe a general documented Oracle pattern; a claim about **this specific customer** remains **Requires validation** until subscriptions, release, data and tenant proofs are obtained.
 

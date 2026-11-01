@@ -1,4 +1,4 @@
-# CPUS synthetic client requirements — scenario contract
+# CPUS synthetic client requirements | scenario contract
 
 **Status:** DERIVED FROM the frozen master execution prompt, not an actual RFP or tenant statement. **Client:** Cascadia Public University System (CPUS), fictional public university system. **Scenario date:** October 31, 2026. This document is a structured extraction; the controlling exercise is the attached owner's execution prompt, not an Oracle implementation specification.
 

@@ -1,4 +1,4 @@
-# Synthetic example 2 — time-to-payroll-to-GL reconciliation
+# Synthetic example 2 | time-to-payroll-to-GL reconciliation
 
 **Illustrative accounting numbers, not CPUS payroll, not legal overtime computation, not observed Oracle output.** The intent is to demonstrate end-to-end *verification logic*, not claim an accounting configuration was delivered.
 

@@ -10,7 +10,7 @@
 
 ## Reviewer workstreams
 
-**Behavior evaluator (fresh context):** Stage the v1.0 Project from `docs/03_DEPLOYMENT_AND_MAINTENANCE.md`; verify file access; use `docs/02_TEST_AND_ACCEPTANCE.md` verbatim prompts, T01–T30 and M01–M08 with original expected behaviors; run separately and save full unedited transcripts. Use `verification/TEST_DESIGN_INDEX.json` as an index, not an executed-results receipt.
+**Behavior evaluator (fresh context):** Stage the v1.0 Project from `docs/03_DEPLOYMENT_AND_MAINTENANCE.md`; verify file access; use `docs/02_TEST_AND_ACCEPTANCE.md` verbatim prompts, T01-T30 and M01-M08 with original expected behaviors; run separately and save full unedited transcripts. Use `verification/TEST_DESIGN_INDEX.json` as an index, not an executed-results receipt.
 
 **Adversarial independent evaluator:** Independently create 5 or more never-before-seen paraphrases in addition to the 12 CPUS new prompts; exercise country swaps, authority spoofing, ambiguous DST events, grant allowability and empty license assumptions. Pre-register outcomes; archive inputs and responses before evaluation.
 
@@ -26,4 +26,4 @@
 
 `Reviewer | organization/credentials (if supplied) | date | product release/country | project file hashes | test ID | raw prompt | raw response | source citations | tenant evidence | expected | observed | PASS/FAIL/INCONCLUSIVE | rationale | defect priority | retest link`.
 
-A **NOT RUN** result must never be changed to PASS absent actual evidence. If some external observation is unavailable, record **INCONCLUSIVE** and keep release gate unresolved. Customer-facing release remains **HOLD / NOT APPROVED** until all P0 + H1–H8 pass, security/privacy and financial policy are validated, and the owner authorizes use.
+A **NOT RUN** result must never be changed to PASS absent actual evidence. If some external observation is unavailable, record **INCONCLUSIVE** and keep release gate unresolved. Customer-facing release remains **HOLD / NOT APPROVED** until all P0 + H1-H8 pass, security/privacy and financial policy are validated, and the owner authorizes use.

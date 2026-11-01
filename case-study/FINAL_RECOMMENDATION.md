@@ -1,4 +1,4 @@
-# CPUS — reviewed conditional recommendation
+# CPUS | reviewed conditional recommendation
 
 **State:** Revised after ten *same-context simulated* review roles. Separate from [frozen first answer](EXPERT_ORIGINAL_RESPONSE.md). **No Oracle tenant, legal opinion, payroll calculation or external independent review was completed.** All paths are logical designs until mapped and tested against the customer's product release and authorization.
 
@@ -14,7 +14,7 @@
 | F03 | DST capture described, but minimal cross-assignment event proof | Require event IDs, UTC instants, local offset, paid/unpaid meal actuals, campus assignment linkage and workweek grouping evidence |
 | F05 | States US/Ontario/labor separation in general | Formal policy approval matrix per employer, population, jurisdiction, collective agreement and effective date; separate Canadian workstream |
 | F06 | General docs with [V] tags | Link each material assertion to release/country/claim scope in evidence ledger; unknown CPUS release remains explicit |
-| F07 | Tenant demo design described as not run | Distinct observation vs acceptance, unexecuted T01–T30/M01–M08, H1–H8 unresolved, ten+ case-specific probes |
+| F07 | Tenant demo design described as not run | Distinct observation vs acceptance, unexecuted T01-T30/M01-M08, H1-H8 unresolved, ten+ case-specific probes |
 | F08 | Read-only agent recommended | Reject prompt-injection authority, constrain to redacted read-only synthetic data and human-review proposals; no write tool inventory |
 | F09/F02 | Technical advisory answer only | Reproducible portfolio publication, original documents, exact hashes, try-it-yourself instructions |
 | F10 | Outcome categories “Supported through configuration” for CPUS rows | Reclassify CPUS-specific outcomes **Requires validation** pending entitlement and tenant demonstration; standard generic patterns explicitly documented where verified |
@@ -65,7 +65,7 @@ The two paths are *not* asserted to generate a common physical record; reconcile
 9. **Canadian independence:** Ontario work requires distinct legal employer/legislative payroll setup, labor policy, T4 and ROE business rules and acceptance tests; do not transfer US W-2 or tax element configuration uncritically. Whether Oracle supports the exact Canadian requirements in the chosen deployment must be verified.
 10. **AI review scope:** Only after deterministic controls are demonstrated: human-approved policy corpus, allowed source list, redacted exception data, no write tools, evidence-linked anomaly observations, abstention for unknowns, separate approver for any future transaction. User retains authority.
 
-## Final RFP language — selected outcomes
+## Final RFP language | selected outcomes
 
 | CPUS request | Final support category | Why / proof needed |
 |---|---|---|
@@ -89,4 +89,4 @@ Use the **ten-step validation design in the frozen answer** with strengthened sp
 
 **STOP/HOLD** any production payroll or financial action when: no approved policy/working time evidence; no required license/access; invalid funding; failed/unapproved time data; unapproved retro; journal mismatch; unreconciled closed period; missing SoD; unsafe agent tool authority; or audit gap. **Safe predecessor:** write the implementation decision log, configure a synthetic test plan and request records, without making changes.
 
-**Portfolio status:** documentation-level case study can be published as an illustrative, inspectable build when its artifact audit passes. **Customer-production status:** HOLD / NOT APPROVED until H1–H8/P0 fresh-chat evidence, Oracle SME review, customer release/licensing/tenant validation, security, legal and final human approval are complete.
+**Portfolio status:** documentation-level case study can be published as an illustrative, inspectable build when its artifact audit passes. **Customer-production status:** HOLD / NOT APPROVED until H1-H8/P0 fresh-chat evidence, Oracle SME review, customer release/licensing/tenant validation, security, legal and final human approval are complete.

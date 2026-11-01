@@ -1,4 +1,4 @@
-# CPUS candidate solution architecture — logical contracts, not a tenant design
+# CPUS candidate solution architecture | logical contracts, not a tenant design
 
 The [revised advice](FINAL_RECOMMENDATION.md) is the business design summary. This file provides the technical/system boundaries and verification conditions. **No physical integration endpoint, actual field name, enabled module, ledger setup or CPUS deployment has been verified.** General Oracle docs for consumers, costing and accounting appear in [the external evidence ledger](../verification/EVIDENCE_AND_CITATIONS.md).
 
@@ -27,13 +27,13 @@ The [revised advice](FINAL_RECOMMENDATION.md) is the business design summary. Th
 
 ## Architecture branches to decide with product and finance evidence
 
-**Branch A — Time and Labor + Global Payroll + standard Payroll costing/SLA/GL:** test costing segment derivation and grant reporting. This does not prove all grant/sponsor controls or interfund balancing.
+**Branch A | Time and Labor + Global Payroll + standard Payroll costing/SLA/GL:** test costing segment derivation and grant reporting. This does not prove all grant/sponsor controls or interfund balancing.
 
-**Branch B — T&L + Payroll and separate Project Costing consumer:** specify which values flow to each, which financial representation has primacy for each reporting use, and reconciliation between project and payroll accounts. Validate worker project eligibility and closed projects.
+**Branch B | T&L + Payroll and separate Project Costing consumer:** specify which values flow to each, which financial representation has primacy for each reporting use, and reconciliation between project and payroll accounts. Validate worker project eligibility and closed projects.
 
-**Branch C — external grants or financial ledger:** optional integration designed from approved schemas, data protections, retry/reversal and operator runbook. It is not a claim that arbitrary REST APIs or endpoints exist.
+**Branch C | external grants or financial ledger:** optional integration designed from approved schemas, data protections, retry/reversal and operator runbook. It is not a claim that arbitrary REST APIs or endpoints exist.
 
-**Branch D — read-only analytics:** exception report/dashboard for detection and work queues. Control at time save/submit/transfer remains separate. An optional LLM assistant summarizes issues but does not calculate legal overtime or mutate data.
+**Branch D | read-only analytics:** exception report/dashboard for detection and work queues. Control at time save/submit/transfer remains separate. An optional LLM assistant summarizes issues but does not calculate legal overtime or mutate data.
 
 ## Threat/failure model
 

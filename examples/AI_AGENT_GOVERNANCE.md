@@ -1,4 +1,4 @@
-# Synthetic example 3 — safe payroll anomaly assistant, not an autonomous agent
+# Synthetic example 3 | safe payroll anomaly assistant, not an autonomous agent
 
 **Proposed read-only pattern; NOT IMPLEMENTED.** A ChatGPT Project analysis response is not an Oracle Fusion AI Agent Studio/Claw integration. Do not imply it has Oracle tools or any license. The client asks to “fix payroll automatically”; the safer proposed outcome is *auditable human exception triage* after deterministic rules and approved reporting have been considered.
 

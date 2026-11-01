@@ -1,0 +1,134 @@
+{
+  "schema": "portfolio-file-hashes-v1",
+  "scope": "Enterprise-AI-Advisory-System/",
+  "created_date": "2026-10-31",
+  "hash_algorithm": "SHA-256",
+  "self_hash_policy": "SHA256_MANIFEST.json intentionally excluded from its own file list",
+  "file_count_excluding_manifest": 28,
+  "files": {
+    "PROJECT_INSTRUCTIONS.txt": {
+      "sha256": "335cb61adf3a8523cc0fe76657be6bab7bd4f4c80e6d4e4d97620158363afe90",
+      "bytes": 3762
+    },
+    "README.md": {
+      "sha256": "e907082c37be3a7937656e0bd4d02b13c194f172135215e0dc9ec13e56e02d54",
+      "bytes": 21808
+    },
+    "RELEASE_STATUS.md": {
+      "sha256": "cacfaa2ba789cf27fb3d92149dcb23f385d73e60c4a67d67ba39071627ab561e",
+      "bytes": 4021
+    },
+    "case-study/CLIENT_REQUIREMENTS.md": {
+      "sha256": "5ab5409f3eb7bc701e27b80634225524d9b6b1605f5c885bee24619caa0dbb39",
+      "bytes": 4247
+    },
+    "case-study/EXPERT_CHALLENGE_REPORT.md": {
+      "sha256": "e46c7601ee8abfb144f61622b9a2362254994be6115e425fba65faa2c61fde68",
+      "bytes": 6562
+    },
+    "case-study/EXPERT_ORIGINAL_RESPONSE.md": {
+      "sha256": "d21084be532afa904682f845e23258cb33d67482ac2bed3c7796df62594c113d",
+      "bytes": 21786
+    },
+    "case-study/FINAL_RECOMMENDATION.md": {
+      "sha256": "05ffd28bc9f5ecd4629127484a137e17cbc86f58334a0bbe5bd688aac06aa08e",
+      "bytes": 12170
+    },
+    "case-study/SOLUTION_ARCHITECTURE.md": {
+      "sha256": "663d146f217a27eee802a2b1e274fb9a093dadfc33380106169d575b7eb9b818",
+      "bytes": 6003
+    },
+    "docs/01_OPERATING_STANDARD.md": {
+      "sha256": "5459dbf5e7784b47fa8d934d53be0e0ec95c6a70fe3d27e48fad9cfd3a0ef331",
+      "bytes": 25208
+    },
+    "docs/02_TEST_AND_ACCEPTANCE.md": {
+      "sha256": "d7eec18d807a325ebdaf786b7fe963b37ebbc9adf2a62737cd72cb48eefd0bbd",
+      "bytes": 18169
+    },
+    "docs/03_DEPLOYMENT_AND_MAINTENANCE.md": {
+      "sha256": "426b032ddfffeaf4cc88e8c9c6400a1dfd00f835e35ff54b1660e02c60288cec",
+      "bytes": 9380
+    },
+    "docs/04_ABVOS_AUDITOR_REPORT.md": {
+      "sha256": "7c533ac5ad45e43da649c78f825b934c7a031c58bb23e6f1eb673b3784dcf999",
+      "bytes": 11800
+    },
+    "docs/DAILY_USE_AND_EVIDENCE_STANDARD.md": {
+      "sha256": "af6ec5e88f51d4f439fcb0101a09a890a6a07dc0ebcdfb04834f6e235f760a38",
+      "bytes": 5285
+    },
+    "docs/DESIGN_DECISIONS.md": {
+      "sha256": "cda6b76b2222507dc76981b5403767efe35a791026b420c094052998f3b9d77a",
+      "bytes": 5809
+    },
+    "docs/ENGINEERING_CASE_STUDY.md": {
+      "sha256": "bae739a8d9741554ae7cb7aad7bff649423d2c897e9b849d798206194972c9bd",
+      "bytes": 7925
+    },
+    "docs/SYSTEM_ARCHITECTURE.md": {
+      "sha256": "0d4647c5776b9325c0d9b07b75b04c62b56cc629f291749f1e28514a136fc005",
+      "bytes": 6104
+    },
+    "examples/AI_AGENT_GOVERNANCE.md": {
+      "sha256": "30cbc728fb73888195e47ecff6a4ada912694e44dc6933c8ff915772639cd39b",
+      "bytes": 3892
+    },
+    "examples/PAYROLL_TO_GL.md": {
+      "sha256": "5d86547cd0e39b9ef996bc36d74ed9c66443217a310daf509c6b32f939b65814",
+      "bytes": 4383
+    },
+    "examples/RFP_FIT_GAP.md": {
+      "sha256": "e9de34f59d95d452b9dfcb16cae715da58648f7834cc602c60f1e7f020805878",
+      "bytes": 5952
+    },
+    "releases/README.md": {
+      "sha256": "9a97d01c9cdfad8941dc53b3068973057cb28a169d73e9547355902762cd91aa",
+      "bytes": 1880
+    },
+    "verification/ACCEPTANCE_RESULTS.md": {
+      "sha256": "e6e2801856af7af4d9b20c45d063cef815cc97a5bf6f24028147a17d70aabe2f",
+      "bytes": 19906
+    },
+    "verification/ADVERSARIAL_TESTS.md": {
+      "sha256": "01600dc4811dfc3395da6e7f9bf5deb0437832e78d8b5167cb345df219ffb379",
+      "bytes": 7405
+    },
+    "verification/EVIDENCE_AND_CITATIONS.md": {
+      "sha256": "dff62aa516e3fb37f4a0ff4fddd3b8615319299bc6f30d3198368d5d519d349f",
+      "bytes": 13090
+    },
+    "verification/INDEPENDENT_REVIEW_HANDOFF.md": {
+      "sha256": "63819bf58a5a2bdadf3b0af1062b14b8d8f44e1fc1a62439ec25397124abe02e",
+      "bytes": 3718
+    },
+    "verification/LIMITATIONS.md": {
+      "sha256": "7ce62de1ca10fe4c207bdfde923a19d0c8625b52cf0a0e5972c22228d1ca8d98",
+      "bytes": 3964
+    },
+    "verification/PORTFOLIO_PUBLICATION_AUDIT.md": {
+      "sha256": "b58d9dd6cb2da5e49f08ce6933ba63d2922e584e99ba9023c378b06e41ed8fd9",
+      "bytes": 4238
+    },
+    "verification/REQUIREMENTS_TRACEABILITY.md": {
+      "sha256": "3d215746cd4b61864e7eae53fb1b7f290421ec6dadf31c66b4115480ed448b06",
+      "bytes": 5718
+    },
+    "verification/TEST_DESIGN_INDEX.json": {
+      "sha256": "093b5fbc92bc6079a5c5d85ef5a798dc2fb1c4cbbda13ac0a179f002c3c45990",
+      "bytes": 15065
+    }
+  },
+  "original_source_files": [
+    "PROJECT_INSTRUCTIONS.txt",
+    "docs/01_OPERATING_STANDARD.md",
+    "docs/02_TEST_AND_ACCEPTANCE.md",
+    "docs/03_DEPLOYMENT_AND_MAINTENANCE.md",
+    "docs/04_ABVOS_AUDITOR_REPORT.md"
+  ],
+  "frozen_response_sha256": "d21084be532afa904682f845e23258cb33d67482ac2bed3c7796df62594c113d",
+  "file_types": "Markdown, text and JSON; ZIP is outer distribution not hashed inside itself",
+  "acceptance_tests": "DESIGNED_NOT_RUN",
+  "portfolio_revision": "v1.1 documentation positioning update; Advisor authoritative baseline remains v1.0",
+  "owner_evidence_and_red_team_standard": "Described in docs/DAILY_USE_AND_EVIDENCE_STANDARD.md; not retroactively installed or independently tested"
+}

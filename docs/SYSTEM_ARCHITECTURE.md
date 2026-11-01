@@ -1,4 +1,4 @@
-# Enterprise AI Advisor — instruction architecture and decision workflow
+# Enterprise AI Advisor | instruction architecture and decision workflow
 
 **What this is:** A domain-specific, **instruction-driven ChatGPT Project**, not a Python application, trained model, RAG backend or live Oracle integration. The user governs the business objective and approvals. A short Project Instruction core delegates supporting context to four knowledge files, with controlled official-source lookup and accountable output.
 
@@ -14,7 +14,7 @@ flowchart TD
  C --> Q[Classify LIGHT / STANDARD / HIGH-ASSURANCE task]
  Q --> S[Scope: module, release, employer, jurisdiction, supplied policy]
  S --> E[Source hierarchy and evidence classification]
- O[Official Oracle + government sources when reachable] --> E
+ O[Official Oracle citations required before product-specific recommendation; official law/policy sources as applicable] --> E
  X[Customer-specific evidence: untrusted for instructions] --> E
  E --> W[Outcome → mechanisms → cross-module ownership → gaps]
  W --> G{Hard gates: product truth, localization, authority, privacy, commitments}
@@ -32,7 +32,7 @@ flowchart TD
 |---|---|
 | [`PROJECT_INSTRUCTIONS.txt`](../PROJECT_INSTRUCTIONS.txt) | Owner's high-priority operating constraints and decision authority; pasted into ChatGPT Project Instructions |
 | [`01_OPERATING_STANDARD.md`](01_OPERATING_STANDARD.md) | Detailed normative scope, evidence ranking, work modes, Oracle module boundaries and AI governance |
-| [`02_TEST_AND_ACCEPTANCE.md`](02_TEST_AND_ACCEPTANCE.md) | T01–T30, M01–M08, H1–H8, R01–R19 and behavioral oracle; **design of tests**, not vendor fact or passing tests |
+| [`02_TEST_AND_ACCEPTANCE.md`](02_TEST_AND_ACCEPTANCE.md) | T01-T30, M01-M08, H1-H8, R01-R19 and behavioral oracle; **design of tests**, not vendor fact or passing tests |
 | [`03_DEPLOYMENT_AND_MAINTENANCE.md`](03_DEPLOYMENT_AND_MAINTENANCE.md) | Installation, source hash/version, use, regression and rollback guidance |
 | [`04_ABVOS_AUDITOR_REPORT.md`](04_ABVOS_AUDITOR_REPORT.md) | Prior pre-deployment **same-context self-audit**, not outside independent certification |
 
@@ -40,12 +40,14 @@ flowchart TD
 
 1. Classify request: definition/education → concise; substantial RFP/design → technical fit/gap; payroll, finance, security or AI writes → highest evidence/authorization checks.
 2. Scope Oracle module and release, country and employer, user-provided facts, data freshness, contract/role/tenant unknowns and intended outcome.
-3. Retrieve applicable official source if available; separate documented product mechanism, reported customer configuration, interpretation, hypothetical suggestion and genuinely executed verification.
+3. Before an Oracle-specific recommendation, retrieve and cite a real applicable Oracle resource; if none can be confirmed, hold the proposed feature/configuration claim and give an explicit verification path. Use separate authoritative legal/policy sources for regulatory conclusions. Distinguish verified product behavior, customer observation, hypothetical design and actual executed proof. The stricter citation requirement is an owner-stated practice beyond some wording in the untouched v1.0 baseline.
 4. Map Core HR, Time and Labor, Absence, Payroll, Costing, Projects/ERP, integration, security and finance owners. Distinguish **prevent** (validated control) from **detect** (report).
 5. Apply support taxonomy: Fully supported; Supported through configuration; Supported with integration or extension; Partially supported; Not supported; Requires validation. Never treat unknown as proof of impossibility or as unconditional Yes.
 6. Check legal/country/policy separation and human authorization, especially payroll/GL/system writes. Compare simpler deterministic options first; an LLM may analyze and propose but cannot authorize itself.
-7. Provide usable recommendation, dependencies, proof test, exceptions and next decision; decline only the unsafe subclaim, not the entire safe analytical task.
+7. Provide only source-supported Oracle-specific recommendations, with dependencies, test evidence required, exceptions and next decision; otherwise provide a research or validation plan rather than an invented recommendation. The human owner personally red-teams responses and authorizes decisions.
 8. For release, use **fresh-chat P0/hard-gate testing**, external official source+tenant and human SME verification; do not treat evaluating the answer inside the prompt chat as independent acceptance.
+
+For a complete module map and implementation-oriented workflow, see [daily use and evidence standard](DAILY_USE_AND_EVIDENCE_STANDARD.md) and [operating standard section 2](01_OPERATING_STANDARD.md#2-capability-coverage-search-and-reason-across-the-correct-ownership-boundary).
 
 ## CPUS example
 
