@@ -5,11 +5,11 @@
 
 > **What it does:** Uses a source-governed, instruction-driven ChatGPT Project to analyze Oracle Fusion HCM/ERP questions for government and education, separate documented capability from unverified customer assumptions, and draft conditional design/RFP recommendations with human authority and validation requirements.
 
-**Why I built it:** To demonstrate how I directed an AI-assisted engineering workflow for a high-stakes enterprise-advice problem: specifying rules, challenging false certainty, preserving an original answer, designing adversarial tests, and publishing evidence rather than just persuasive outputs.
+**Why I built it:** To demonstrate how I direct an AI-assisted engineering workflow for a high-stakes enterprise-advice problem: specifying rules, challenging false certainty, preserving an original answer, designing adversarial tests, and publishing evidence rather than just persuasive outputs.
 
 **Under the hood:** ChatGPT Project Instructions · four retained knowledge files · Oracle HCM/Payroll/Time and Labor and ERP/GL domain workflows · official-source review · six-way fit/gap classification · ABVOS-inspired behavioral gates · 10-role same-context simulated challenge · T01–T30 / M01–M08 regression test design · 12 new CPUS adversarial probes · SHA-256 artifact verification.
 
-**Verification status:** **Portfolio artifact packaging is locally audited; the Advisor is NOT independently behaviorally accepted or Oracle-tenant validated.** The 30 original tests, 8 variants and 12 new adversarial probes are **designed, NOT RUN**. Ten reviewers are *simulated roles in one AI session*, not external human experts. Real customer use remains **HOLD / NOT APPROVED**.
+**Verification status:** **Portfolio artifact packaging is locally audited; the Advisor is NOT independently behaviorally accepted or Oracle-tenant validated.** The 30 original tests, 8 variants and 12 new adversarial probes are **designed, NOT RUN**. Ten reviewers are *simulated roles in one AI session*, not external human experts. I provide human red-team**.
 
 **Name and compatibility:** **Enterprise AI Advisory System** is the portfolio title; **Oracle Fusion Cloud HCM + ERP — SLED Solution Advisor** is the technical title. The exact v1.0 instruction and knowledge files are preserved. This project contains **no Python application, custom-trained model, RAG deployment, running agent or connected Oracle tenant**.
 
