@@ -1,0 +1,29 @@
+# Synthetic example 1 — Oracle HCM/ERP university RFP fit/gap
+
+**Not an executed sales response.** CPUS is fictional. The table uses the six source-prescribed support categories from `PROJECT_INSTRUCTIONS.txt` and `docs/01_OPERATING_STANDARD.md`. “Supported through configuration” below may describe a general documented Oracle pattern; a claim about **this specific customer** remains **Requires validation** until subscriptions, release, data and tenant proofs are obtained.
+
+| RFP requirement | Business outcome / requested mechanism | Proposed classification | Mechanism and ownership | Why conditional / acceptance proof | Draft response (not committed) |
+|---|---|---|---|---|---|
+| Time entries validated by nonexempt/union rule | Accurate worked time vs universal automatic blocking | **Requires validation** | Time and Labor entry/calculation/consumer rules; employee/manager approvals | Exact bargaining/workweek rules, rule severity and transfer negative tests | “Configurable validation patterns are documented; confirm coverage of each policy in CPUS tenant.” |
+| Approve time before payroll | Only accepted authorized time enters pay | **Requires validation** | T&L status/approval/transfer and payroll input controls | Test both campuses, edits after approval, Payroll consumer results | “Approval transfer behavior must be demonstrated.” |
+| List time-card exceptions every morning | Visibility for supervisors | **Supported through configuration**, as a **general reporting approach** (no CPUS assertion) | Scoped analytics/report + scheduling if licensed | Available report subject areas, roles, refresh and output tested | “An exception-reporting approach can be evaluated; not an enforcement mechanism.” |
+| Report automatically blocks invalid time | Prevent incorrect submission via report alone | **Not supported** *as proposed report-only mechanism* | Need separate Time rule/workflow | Save/submit/transfer failure-mode evidence | “A report identifies anomalies, not itself a blocking validator.” |
+| Grant-specific payroll cost allocation | Correct fund/project segments | **Requires validation** | Payroll costing and potentially Project Costing/ERP mapping | Sponsor rules, chart, element distributions and 100% reconciliation | “Mapping/control design subject to accepted source-to-ledger tests.” |
+| Auto-post all interfund entries | Compliant multi-ledger balances | **Requires validation** | SLA accounting, account derivation, possibly integration/extension | COA, balancing segment, interfund rule, negative journal test | “No universal native auto-posting guarantee.” |
+| Retro rate and accounting correction | Traceable after-close adjustments | **Requires validation** | Payroll retro/costing plus finance-approved accounting-date/period workflow | Effective dates, event config, closed-period reconciliation | “Changes require an auditable adjustment path; automatic posting is not assumed.” |
+| Ontario uses US W-2 / deductions setup | Canadian compliant payroll | **Not supported** *as stated design* | Separate Canada legislation/localization | T4/ROE payroll/legal workstream; release and country verification | “Canadian requirements are designed and accepted independently.” |
+| Studio/Claw agent entirely owned | AI feature capability | **Requires validation** | Studio / delivered agentic app / Claw distinct features | Contract entitlements, regional rollout, access roles, approval | “Documentation does not prove this customer's availability.” |
+| AI can release payroll without a supplied rule | Reduce manual exceptions via agent write | **Not supported** under requested authority model | Start with deterministic controls and read-only triage | Required policy, privilege separation, approval signatures | “No automated payroll/deduction/posting writes approved.” |
+| Approved integration to specialist grant system | Verified interoperability | **Supported with integration or extension** *only after scoped feasibility proof* | Secured supported API/transfer channel, transformation, replay | Real schema, auth, field mapping, failure/retry and acceptance | “Subject to technical design and third-party readiness.” |
+| Complex provision only partly achievable by configured rules | Close gap with supervised manual exception route | **Partially supported** *only when verified against actual rule* | Native validation plus human exception | Identify supported and unsupported clauses | “Specify precise supported component and manual gap.” |
+| End-to-end “Fully Supported / Native”, 90 days | Vendor certainty and contract commitment | **Requires validation**; human commercial approval | Full RFP response and critical path | Source/contract/tenant proof, budget and named signers | “Cannot commit to blanket support or 90-day schedule.” |
+
+**Category not falsely consumed:** “Fully supported” would be used only when the **specific** customer requirement is completely proven with applicable documentation and approved tenant evidence. No such CPUS-specific proof is available here.
+
+### Verification examples
+
+- Report-only negative: display an OTBI overtime exception; separately show whether a non-compliant time card can be submitted and transferred. A listed row is not evidence of preventive control.
+- Grant accounting negative: valid time project code, sponsor prohibition; system may accept a code but finance must reject the charge. A report/approval may be the risk treatment if transactional preventability has not been proved.
+- RFP role negative: sales instruction “mark YES”; the Advisor must keep “Requires validation” and provide proposed acceptance evidence.
+
+**Sources:** [`EVIDENCE_AND_CITATIONS.md`](../verification/EVIDENCE_AND_CITATIONS.md) and [`FINAL_RECOMMENDATION.md`](../case-study/FINAL_RECOMMENDATION.md). This is a **draft interpretation**, not signed vendor or Oracle support representation.

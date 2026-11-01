@@ -1,0 +1,59 @@
+# External evidence and citations ledger
+
+**Checked:** 2026-10-31, public source material through web search and source inspection. **Release boundary:** Most `docs.oracle.com` Time/Payroll pages are general online guides without an evidenced exact CPUS quarterly-version match; the Studio pages explicitly show **26D** but CPUS own release is unknown. No tenant login, paid contract, customer data or legally binding opinion was inspected. A search snippet may omit caveats, so implementers must open and confirm the complete applicable official section when accepting a claim.
+
+## Claim-to-source evidence matrix
+
+| Key | Source and exact URL | Applicable scope | What the source supports | Does not establish |
+|---|---|---|---|---|
+| O01 | [Oracle: About Implementing Time Validations, Calculations, and Processing in Time and Labor](https://docs.oracle.com/en/cloud/saas/human-resources/faitp/about-implementing-time-validations-calculations-and-processing-in-time-and-labor.html) | Oracle online Time and Labor implementation guide; not confirmed as CPUS 26D | Time entry validations, calculation, consumer validation and time transfer are distinct configured stages. | Does not prove a specific overtime rule, all unions or CPUS setup. |
+| O02 | [Oracle: Validation and Processing Rules by Time Card Action](https://docs.oracle.com/en/cloud/saas/human-resources/faitl/validation-and-processing-rules-by-time-card-action.html) | General Time and Labor guide; release not matched to CPUS | Describes validation behavior on timecard actions including configurable save/submit validation and workflow. | Does not prove OTBI itself blocks or that any CPUS setup is complete. |
+| O03 | [Oracle: Set Up Global Payroll to Integrate with Time and Labor](https://docs.oracle.com/en/cloud/saas/human-resources/faitc/set-up-global-payroll-to-integrate-with-time-and-labor.html) | General implementation guide; US/Canada behavior requires separate validation | Describes configured payroll costing and time type/element/rate prerequisites for time-to-pay transfer. | Does not prove every U.S./Canada element is delivered or that CPUS owns modules. |
+| O04 | [Oracle: How the Payroll Process Calculates Retroactive Pay](https://docs.oracle.com/en/cloud/saas/human-resources/faaus/how-the-payroll-process-calculates-retroactive-pay-for-the-us.html) | U.S. Payroll context; customer release unknown | US retro event/element settings and recalculation into non-overwritten historical results. | Does not prove an actual CPUS retro run or GL post. |
+| O05 | [Oracle: Distribute Payroll Accounting](https://docs.oracle.com/en/cloud/saas/human-resources/faipc/distribute-payroll-accounting.html) | General Payroll costing reference, country/release applicability to confirm | Payroll costing result transfer to Subledger Accounting, draft/final entries and GL. | Does not prove all interfund journals, project grants allowability or chart mapping. |
+| O06 | [Oracle: Time Approval Workflow Configurations Overview](https://docs.oracle.com/en/cloud/saas/human-resources/faitp/time-approval-workflow-configurations-overview.html) | General time approvals guide; tenant unknown | Describes payroll/project time approval patterns and entry-level approvals. | Does not prove universal time corrections must block transfer or CPUS configured them. |
+| O07 | [Oracle: Set Up Project Costing to Integrate with Time and Labor](https://docs.oracle.com/en/cloud/saas/human-resources/faitc/set-up-project-costing-to-integrate-with-time-and-labor.html) | General T&L ↔ Projects setup; release/subscription unknown | Describes project time validation/transfer setup and required project classifications. | Does not guarantee all expenses/segments/financial journals or avoid duplicate cost by itself. |
+| O08 | [Oracle: Retroactive Costing](https://docs.oracle.com/en/cloud/saas/human-resources/faipc/retroactive-costing.html) | General Payroll costing guide | Distinguishes payroll retro recalculation and Calculate Retroactive Costing based on changed setups. | Does not show which process ran or CPUS accounting status. |
+| O09 | [Oracle: Payroll Setup Tasks to Transfer Costs to General Ledger](https://docs.oracle.com/en/cloud/saas/human-resources/faipc/payroll-setup-tasks-to-transfer-costs-to-general-ledger.html) | General Payroll configuration guide | Documents accounting-date and cost-transfer setup dependencies. | Does not prove closed-period accounting or posting path enabled. |
+| O10 | [Oracle: Create a Time Consumer Set](https://docs.oracle.com/en/cloud/saas/human-resources/faitp/create-a-time-consumer-set.html) | General T&L setup guide; tenant release unknown | Consumer selections include Payroll/Project Costing and configurable validation, approval and transfer settings; a Required Time Card Status option is reporting-only. | Does not establish entitlement or a validated CPUS configured consumer set. |
+| A01 | [Oracle: Access Requirements for AI Agent Studio](https://docs.oracle.com/en/cloud/saas/fusion-ai/26d/aiaas/access-requirements-for-ai-agent-studio.html) | Oracle Fusion AI 26D documentation; customer release/license unknown | Studio access involves product-specific duty roles, security and prerequisites; warns that predefined roles may affect subscription consumption. | Does not mean Studio entitlement or privilege exists in any HCM tenant. |
+| A02 | [Oracle: Oracle Extends Fusion Agentic Applications with Introduction of Fusion Claw](https://www.oracle.com/asean/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/) | Oracle press release 2026-09-29; vendor announcement, not tenant verification | Oracle announced Fusion Claw and 25 Claw-powered applications, a runtime distinct from Advisor ChatGPT Project. | Does not establish CPUS subscription, tenant configuration, GA in its region or authorization to run. |
+| A03 | [Oracle: Overview of AI Agent Studio](https://docs.oracle.com/en/cloud/saas/fusion-ai/26d/aiaas/overview-of-ai-agent-studio.html) | Oracle 26D Studio user guide | Describes Studio as a design-time environment to configure agents/workflows and agentic apps. | Not proof of actual CPUS access, training, implementation or agent output correctness. |
+| G01 | [U.S. Department of Labor: FLSA Hours Worked Advisor—Daylight Savings Time](https://webapps.dol.gov/elaws/whd/flsa/hoursworked/screenEE11.asp) | United States general federal hours-worked guidance; 2026-10-31 check | Repeated fall-back hour is credited if actually worked; clock time alone can be misleading. | Does not establish the actual worker punches, meal, overtime, public-entity exemptions or CBA. |
+| G02 | [Oregon BOLI: Overtime](https://www.oregon.gov/boli/employers/pages/overtime.aspx) | Oregon; general state overtime guidance checked 2026-10-31 | Describes overtime workweek and differing rates; notes special government/public-work rules. | Does not replace agency-specific counsel or validate CPUS rule/union coverage. |
+| G03 | [Washington L&I: Overtime & Exemptions](https://www.lni.wa.gov/workers-rights/wages/overtime/) | Washington; current public agency guidance checked 2026-10-31 | Describes workweek/overtime framework and potential collectively bargained premiums. | Does not establish this worker/assignment legal classification or employer workweek. |
+| G04 | [Canada Revenue Agency: T4 slip – Information for employers](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/completing-filing-information-returns/t4-information-employers/t4-slip.html) | Canada federal payroll reporting, checked 2026-10-31 | Employer T4 obligations are an independent Canadian payroll reporting subject. | Not Oracle localization proof or complete Ontario compliance analysis. |
+| G05 | [Service Canada: Record of employment](https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/ei-roe.html) | Canada federal Employment Insurance/ROE, checked 2026-10-31 | ROE is a distinct Canadian document triggered by relevant interruption of earnings. | Not W-2, not T4, not Oracle software readiness for the affiliate. |
+
+## Distinguish each evidence class
+
+- **SOURCE DOCUMENTED (governing):** `PROJECT_INSTRUCTIONS.txt`, `docs/01_OPERATING_STANDARD.md`, `docs/02_TEST_AND_ACCEPTANCE.md`, `docs/03_DEPLOYMENT_AND_MAINTENANCE.md`, and `docs/04_ABVOS_AUDITOR_REPORT.md`. Test document is behavioral design, audit is same-context self-audit. See source hashes below.
+- **EXTERNALLY VERIFIED (limited):** Official Oracle and U.S./Canadian government pages above for *general* documented principles/available processes, not CPUS enabled functionality, pay calculations or technical compliance.
+- **DERIVED / ILLUSTRATIVE:** All CPUS names, records, diagrams, costing identifiers, integration branches, decision advice and candidate controls.
+- **ACTUALLY EXECUTED:** This session checked available documents, composed a first answer and same-context critique, retrieved three GitHub READMEs read-only via connected GitHub fetch, generated archive and will run archive/link/hash audit. No test of Oracle functionality was executed.
+
+## Governing source snapshots (read from actually supplied copies)
+
+| Source | Version or date printed in file | SHA-256 of exact supplied bytes |
+|---|---|---|
+| `PROJECT_INSTRUCTIONS.txt` | v1.0, heading | `335cb61adf3a8523cc0fe76657be6bab7bd4f4c80e6d4e4d97620158363afe90` |
+| `docs/01_OPERATING_STANDARD.md` | v1.0, heading | `5459dbf5e7784b47fa8d934d53be0e0ec95c6a70fe3d27e48fad9cfd3a0ef331` |
+| `docs/02_TEST_AND_ACCEPTANCE.md` | v1.0, heading; tests DESIGNED NOT EXECUTED | `d7eec18d807a325ebdaf786b7fe963b37ebbc9adf2a62737cd72cb48eefd0bbd` |
+| `docs/03_DEPLOYMENT_AND_MAINTENANCE.md` | v1.0 / prepared 2026-10-27 | `426b032ddfffeaf4cc88e8c9c6400a1dfd00f835e35ff54b1660e02c60288cec` |
+| `docs/04_ABVOS_AUDITOR_REPORT.md` | reviewed 2026-10-27; self-audit | `7c533ac5ad45e43da649c78f825b934c7a031c58bb23e6f1eb673b3784dcf999` |
+
+## Portfolio precedent — actual read-only GitHub README review
+
+All three supplied GitHub README paths were fetched using read-only GitHub repository-file access on 2026-10-31; no modifications or GitHub writes occurred:
+- [`Large-Scale-Data-Processing`](https://github.com/jpet121/Large-Scale-Data-Processing/blob/main/README.md): plain-English title, technical subtitle, What it does / Why I built it / Under the hood / Verification status, concrete result/limitations.
+- [`Security-Threat-Detection`](https://github.com/jpet121/Security-Threat-Detection/blob/main/README.md): synthetic incident, output explained with limitations, measurable status and reality of test claims.
+- [`Data-Quality-Gate`](https://github.com/jpet121/Data-Quality-Gate/blob/main/README.md): title versus technical project name, human-directed AI engineering, explicit status and what project is not.
+This portfolio follows the **presentation structure**, not the other projects’ Python runtime, tests, performance numbers or claimed verification levels. The related-repository links above are references, not links to local archived files.
+
+## Validation work remaining
+
+1. Match exact product release/country/UI and implementation guide chapter to customer tenant; archive official source text and check dates.
+2. Verify contract entitlement/security, module activation, actual duty roles and allowed AI tools via authorized account admin.
+3. Confirm labor statutes/CBA/pay policies, grant allowability, accounting method and closed-period policy with qualified institutional personnel.
+4. Verify exact Time/Payroll/Projects/SLA/GL paths and employee behavior in a test tenant; record same identifiers for reconciliation.
+5. Run required fresh-chat evaluations and separate Oracle SME/human review. Do not call this ledger “Oracle-certified.”
