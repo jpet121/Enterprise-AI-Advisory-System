@@ -1,7 +1,8 @@
 # Enterprise AI Advisory System
-### Oracle Fusion Cloud HCM + ERP | SLED Solution Advisor
 
-**Daily-use Oracle enterprise solution advisory tool | Human-directed, source-grounded AI**
+**Scenario.** A fictional public university asks whether Oracle can charge one employee’s labor costs to its general fund and two grants. I use the AI advisor to trace the proposed answer to Oracle documentation and identify what needs a test in the university’s own system.
+
+**Value.** The proposal team can see which claims the sources support and what it must prove before it makes a commitment. I challenge the evidence and decide which claims belong in the response. [Read the university case](case-study/FINAL_RECOMMENDATION.md)
 
 > **What it does:** I use this Oracle Fusion Cloud HCM and ERP Advisor throughout my workday to research product capabilities, assess configuration options, plan implementations, troubleshoot problems, build demonstrations, evaluate integrations, and answer RFP and cross-module solution questions for state and local government and education (SLED). It covers the full HCM suite and connected ERP/Financials processes, not only Time and Labor or Payroll.
 
